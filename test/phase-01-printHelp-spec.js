@@ -21,6 +21,7 @@ describe('printHelp()', () => {
     printHelp();
 
     const expectedPrintOutputs = [
+      "\nHelp:\n",
       "  Type 'r' for Rock",
       "  Type 'p' for Paper",
       "  Type 's' for Scissors",
